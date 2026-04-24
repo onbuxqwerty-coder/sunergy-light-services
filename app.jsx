@@ -98,7 +98,7 @@ function TopBar({ onOpenMenu }) {
     }}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '12px 18px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <img src="assets/logo.png" alt="Sunergy Light Services" style={{ height: 36, width: 'auto', display: 'block' }} />
+          <img src="assets/logo.png" alt="Sunergy Light Services" style={{ height: 45, width: 'auto', display: 'block' }} />
         </div>
         <a href={`tel:${PHONE.replace(/\s/g, '')}`} style={{
           display: 'inline-flex', alignItems: 'center', gap: 6,
@@ -689,10 +689,8 @@ function FooterCTA() {
           </a>
         </div>
 
-        <div style={{ marginTop: 34, paddingTop: 24, borderTop: '1px solid rgba(255,255,255,0.1)', fontSize: 13, color: 'rgba(255,255,255,0.5)', display: 'flex', flexDirection: 'column', gap: 6 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <img src="assets/logo.png" alt="" style={{ height: 26, filter: 'brightness(0) invert(1)', opacity: 0.85 }} />
-          </div>
+        <div style={{ marginTop: 34, paddingTop: 24, borderTop: '1px solid rgba(255,255,255,0.1)', fontSize: 13, color: 'rgba(255,255,255,0.5)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, textAlign: 'center' }}>
+          <img src="assets/logo.png" alt="" style={{ height: 66, borderRadius: 4, opacity: 0.9 }} />
           <div>Sunergy Light Services · Ota, Ogun State, Nigeria</div>
           <div style={{ opacity: 0.7 }}>© 2026 Sunergy Light Services. All rights reserved.</div>
         </div>
