@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sunergy Light Services — Solar Power in Ota</title>
+  <meta name="ext-resource-dependency" content="assets/logo.png" data-resource-id="logo" />
+  <meta name="ext-resource-dependency" content="assets/family-vertical.png" data-resource-id="familyV" />
+  <meta name="ext-resource-dependency" content="assets/family-horizontal.png" data-resource-id="familyH" />
+  <template id="__bundler_thumbnail" data-bg-color="#1A3638">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="60" fill="#FDB913"/>
+      <g stroke="#FDB913" stroke-width="6" stroke-linecap="round">
+        <line x1="100" y1="20" x2="100" y2="36"/>
+        <line x1="100" y1="164" x2="100" y2="180"/>
+        <line x1="20" y1="100" x2="36" y2="100"/>
+        <line x1="164" y1="100" x2="180" y2="100"/>
+        <line x1="43" y1="43" x2="54" y2="54"/>
+        <line x1="146" y1="146" x2="157" y2="157"/>
+        <line x1="43" y1="157" x2="54" y2="146"/>
+        <line x1="146" y1="54" x2="157" y2="43"/>
+      </g>
+      <rect x="70" y="80" width="60" height="40" fill="#1A3638" stroke="#FFFBF0" stroke-width="2"/>
+      <line x1="90" y1="80" x2="90" y2="120" stroke="#FFFBF0" stroke-width="1.5"/>
+      <line x1="110" y1="80" x2="110" y2="120" stroke="#FFFBF0" stroke-width="1.5"/>
+      <line x1="70" y1="100" x2="130" y2="100" stroke="#FFFBF0" stroke-width="1.5"/>
+    </svg>
+  </template>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      color: #1A3638;
+      background: #e6e2d7;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+    button { font-family: inherit; }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.55); }
+      70% { box-shadow: 0 0 0 18px rgba(37,211,102,0); }
+      100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" src="app-standalone.jsx"></script>
+</body>
+</html>
